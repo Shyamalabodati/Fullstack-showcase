@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudentDetails</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Add BTech Student</h2>
+
+  <input type="text" id="name" placeholder="Student Name"><br>
+  <input type="text" id="Father" placeholder="Father"><br>
+  <select id="class">
+    <option value="">Select BTech Course</option>
+    <option value="BTech CSE">BTech CSE</option>
+    <option value="BTech ECE">BTech ECE</option>
+    <option value="BTech AI">BTech AI</option>
+    <option value="BTech ME">BTech ME</option>
+  </select><br>
+  <input type="text" id="contact" placeholder="contact"><br>
+
+  <button onclick="addStudent()">Send</button>
+
+  <h2>Student List</h2>
+  <div id="studentList"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
